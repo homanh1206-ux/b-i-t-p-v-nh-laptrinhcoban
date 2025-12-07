@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int shares = 750;
+    double pricePerShare = 35.0;
+    double commissionRate = 0.02;
+
+    double stockCost = shares * pricePerShare;            // Tiền mua cổ phiếu
+    double commission = stockCost * commissionRate;        // Tiền hoa hồng
+    double totalCost = stockCost + commission;             // Tổng thanh toán
+
+    cout << "So tien mua co phieu (khong hoa hong): " << stockCost << " USD\n";
+    cout << "So tien hoa hong: " << commission << " USD\n";
+    cout << "Tong so tien phai tra: " << totalCost << " USD\n";
+
+    return 0;
+}
