@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double coverage = 340.0;     // 340 ft^2 per gallon
+    double height = 6.0;
+    double length = 100.0;
+
+    double area = height * length;       // diện tích 1 lớp
+    double totalArea = area * 2;         // diện tích cho 2 lớp
+
+    double gallons = totalArea / coverage;
+
+    cout << "So gallon son can dung la: " << gallons << endl;
+
+    return 0;
+}
