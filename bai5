@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double v1 = 28;
+    double v2 = 32;
+    double v3 = 37;
+    double v4 = 24;
+    double v5 = 33;
+
+    double sum = v1 + v2 + v3 + v4 + v5;   // t?ng 5 giá tr?
+    double average = sum / 5;              // giá tr? trung bình
+
+    cout << "Gia tri trung binh la: " << average << endl;
+
+    return 0;
+}
