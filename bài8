@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    // giá t?ng món d?
+    double item1 = 15.59;
+    double item2 = 24.59;
+    double item3 = 6.59;
+    double item4 = 12.59;
+    double item5 = 3.59;
+
+    double subtotal = item1 + item2 + item3 + item4 + item5;  // t?ng t?m tính
+    double tax = subtotal * 0.07;     // thu? 7%
+    double total = subtotal + tax;    // t?ng ph?i tr?
+
+    cout << "Gia tung mon do:\n";
+    cout << "Mon 1: " << item1 << endl;
+    cout << "Mon 2: " << item2 << endl;
+    cout << "Mon 3: " << item3 << endl;
+    cout << "Mon 4: " << item4 << endl;
+    cout << "Mon 5: " << item5 << endl;
+
+    cout << "\nTong tam tinh: " << subtotal << " USD" << endl;
+    cout << "Tien thue (7%): " << tax << " USD" << endl;
+    cout << "Tong phai tra: " << total << " USD" << endl;
+
+    return 0;
+}
