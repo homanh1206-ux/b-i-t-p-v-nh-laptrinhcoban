@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Ten: Nguyen Van A\n"
+         << "Dia chi: 123 Duong ABC, Quan 1, TP HCM, ZIP 700000\n"
+         << "So dien thoai: 0123456789\n"
+         << "Chuyen nganh: Cong nghe thong tin\n";
+
+    return 0;
+}
