@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double risePerYear = 1.5;   // m?c nu?c bi?n tang m?i nam (mm)
+
+    double after5 = risePerYear * 5;   // sau 5 nam
+    double after7 = risePerYear * 7;   // sau 7 nam
+    double after10 = risePerYear * 10; // sau 10 nam
+
+    cout << "Muc nuoc bien tang sau 5 nam: " << after5 << " mm" << endl;
+    cout << "Muc nuoc bien tang sau 7 nam: " << after7 << " mm" << endl;
+    cout << "Muc nuoc bien tang sau 10 nam: " << after10 << " mm" << endl;
+
+    return 0;
+}
