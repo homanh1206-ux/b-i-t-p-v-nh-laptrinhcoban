@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double gallons = 15;      // Số gallon xăng chứa được
+    double miles = 375;       // Số dặm đi được
+
+    double mpg = miles / gallons;   // Số dặm trên mỗi gallon
+
+    cout << "So dam tren moi gallon (MPG) la: " << mpg << endl;
+
+    return 0;
+}
