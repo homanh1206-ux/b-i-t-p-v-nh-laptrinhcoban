@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double payPerPeriod = 2200.0;  // ti?n luong m?i k? (2 tu?n)
+    int periodsPerYear = 26;       // s? k? luong m?i nam
+
+    double annualPay = payPerPeriod * periodsPerYear;  // t?ng luong hàng nam
+
+    cout << "Tong thanh toan hang nam la: " 
+         << annualPay << " USD" << endl;
+
+    return 0;n
+}
