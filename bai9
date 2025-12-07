@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Kich thuoc cac kieu du lieu trong C++:\n";
+    cout << "--------------------------------------\n";
+    cout << "Kich thuoc kieu char   : " << sizeof(char) << " byte\n";
+    cout << "Kich thuoc kieu int    : " << sizeof(int) << " byte\n";
+    cout << "Kich thuoc kieu float  : " << sizeof(float) << " byte\n";
+    cout << "Kich thuoc kieu double : " << sizeof(double) << " byte\n";
+
+    return 0;
+}
