@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 50;       // luu s? nguyên 50
+    int b = 100;      // luu s? nguyên 100
+    int total = a + b; // bi?n total luu t?ng c?a hai s?
+
+    cout << "Tong cua hai so la: " << total << endl;
+
+    return 0;
+}
