@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double price = 95.0;      // giá gi? hàng
+    double stateTax = 0.04;   // thu? ti?u bang 4%
+    double countyTax = 0.02;  // thu? qu?n 2%
+
+    double totalTax = price * (stateTax + countyTax); // t?ng thu? ph?i tr?
+
+    cout << "Tong thue ban hang la: " << totalTax << " USD" << endl;
+
+    return 0;
+}
