@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double mealCost = 88.67;        // chi phí b?a an
+    double taxRate = 0.0675;        // thu? 6.75%
+    
+    double tax = mealCost * taxRate;       // ti?n thu?
+    double tip = (mealCost + tax) * 0.20;  // tip 20% sau khi c?ng thu?
+    double total = mealCost + tax + tip;   // t?ng hóa don
+
+    cout << "Chi phi bua an: " << mealCost << " USD" << endl;
+    cout << "Tien thue: " << tax << " USD" << endl;
+    cout << "Tien tip: " << tip << " USD" << endl;
+    cout << "Tong hoa don: " << total << " USD" << endl;
+
+    return 0;
+}
