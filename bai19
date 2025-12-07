@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double ny = 85.0;
+    double denver = 88.0;
+    double phoenix = 106.0;
+
+    double increaseRate = 0.02; // 2%
+
+    double ny_new = ny * (1 + increaseRate);
+    double denver_new = denver * (1 + increaseRate);
+    double phoenix_new = phoenix * (1 + increaseRate);
+
+    cout << "Nhiet do moi o New York City: " << ny_new << " F\n";
+    cout << "Nhiet do moi o Denver: " << denver_new << " F\n";
+    cout << "Nhiet do moi o Phoenix: " << phoenix_new << " F\n";
+
+    return 0;
+}
