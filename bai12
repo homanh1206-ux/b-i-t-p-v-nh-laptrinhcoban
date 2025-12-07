@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    double squareFeetPerAcre = 43560.0;   // Số feet vuông trong 1 mẫu đất
+    double landArea = 391876.0;           // Diện tích khu đất
+
+    double acres = landArea / squareFeetPerAcre;   // Tính số mẫu
+
+    cout << "So mau dat tren khu dat la: " << acres << endl;
+
+    return 0;
+}
