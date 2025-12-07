@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int totalCustomers = 16500;
+    double drinkRate = 0.15;      // 15%
+    double orangeRate = 0.58;     // 58%
+
+    int drinkBuyers = totalCustomers * drinkRate;
+    int orangeLovers = drinkBuyers * orangeRate;
+
+    cout << "So khach hang mua nuoc tang luc moi tuan: " << drinkBuyers << endl;
+    cout << "So khach hang thich nuoc tang luc vi cam: " << orangeLovers << endl;
+
+    return 0;
+}
